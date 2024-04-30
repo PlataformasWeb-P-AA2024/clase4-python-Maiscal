@@ -13,3 +13,5 @@ for x in lineas:
 archivo_generado = open("data/%s.html" %(x[9], "w")
 archivo_generado.writelines("%s\n" % (cadena))
 archivo_generado.close()
+
+#debe salir 2532 con nombres unicos hasta mañana xd
